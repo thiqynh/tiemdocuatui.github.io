@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap');
+
+html{
+        font-family: 'Fira Sans', sans-serif;
+}
+* {margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/*css phần header*/
+header{
+   position:fixed;
+   top:0;
+   right: 0;
+   left: 0; 
+}
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background:rgb(13, 117, 103);
+    color:white;
+    line-height:40px;
+}
+.menu-logo{
+    height: 60px;
+    position:relative;
+    background:rgb(206, 69, 27) ;
+}
+.menu-logo .logo{
+    position:absolute;
+    top:5px;
+    left: 50px;
+}
+.menu-logo nav{
+    position: absolute;
+    right: 50px;
+}
+
+.menu-logo nav a{
+    text-decoration: none;
+    color:black;
+    line-height: 70px;
+    margin: 0 30px;
+}
+.menu-logo nav a:hover{
+    color:white;
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+
+.menu-logo .login i{
+    font-size:16px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    height: 35px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+
+}
+.banner{
+    width:100%;
+    margin-top: 110px;  
+}
+
+.banner img{
+    max-width: 100%;
+}
+/* css phần heading của trang web*/
+.heading{
+    font-size: 28px;
+    text-align: center;
+    margin: 20px 0;
+}
+/*css cho sp*/
+.product .list-product .product-item{
+    /* chiều dài của ô sản phẩm */
+    width: 22%;
+    /* khoảng cách của những ô sản phẩm*/
+    margin: 18px 18px;
+    /*  cho phép nhiều ô sp nằm trên 1 dòng */
+    display:inline-block;
+    text-align: center;
+    padding:5px ;
+    background-color:rgb(236, 230, 223);
+}
+
+.product .list-product .product-item:hover{
+    box-shadow:rgb(2, 29, 29) 0px 5px 8px;
+    transition:all 0.3 linear
+}
+/*css cho tin tức*/
+.product .list-product .product-item img{
+    max-width: 100%;
+}
+.tintuc .new-item{
+    width: 30%;
+    margin: 20px 20px;
+    display: inline-block; 
+    text-align: center;
+    background-color:rgb(236, 230, 223);
+}
+/*hiệu ứng cho tintuc*/
+.tintuc .new-item:hover{
+    box-shadow:rgb(2, 29, 29) 0px 5px 8px;
+    transition:all 0.3 linear
+}
+
+.tintuc .new-item img{
+    max-width: 100%;
+}
+
+/*css cho san pham footer*/
+footer{
+    width: 100%;
+    background:rgb(43, 138, 125);
+    color:rgb(255, 255, 255);
+}
+footer .footer-item{
+   text-align: center;
+    display:inline-block;
+    margin-bottom: 30px;
+    width: 30%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+footer .footer-item h3{
+      margin: 30px 0;
+}
+
+footer.link a{
+    display: block;
+    text-align: center;
+    margin: 3px 0;  
+}
+
+footer .footer-item:hover{
+    color: black;
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+footer .footer-item:hover img{
+    box-shadow:rgb(255, 255, 255) 0px 5px 8px;
+    transition:all 0.3 linear
+}
+
+.tacgia{
+    background:wheat;
+    color: rgb(34, 17, 17);
+    text-align: center;
+    padding: 10px;
+}
+.tacgia{
+    padding-top: 10px;
+}
+
+
+.backtotop{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+}
+
+.backtotop a{
+    padding: 15px;
+    text-align: center;
+    border-radius: 50%;
+    font-size:20px;
+    color:rgb(236, 230, 223);
+    background:rgb(206, 69, 27) ;
+}
+
+
